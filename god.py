@@ -1,8 +1,8 @@
 print ("I am still a god")
 
-g = 50
-t = .27
-g += g * t
+#g = 50
+#t = .27
+#g += g * t
 
 #print (g)
 
@@ -43,9 +43,33 @@ g += g * t
 
 
 #oddoreven = int(input("gimme a number: "))
+# if oddoreven%2 == 0:
+#     print ("even")
+# else:
+#     print ("odd")
 
 
-#if oddoreven%2 == 0:
-#    print ("even")
-#else:
-#    print ("odd")
+# print ('*'.join("HELP"))
+
+
+# l = ["sword", "dagger"]
+# print (l)
+# usr = input("what weapon?")
+# usrp = usr.split(" ") #list
+#
+# for word in usrp:
+#     if word in l and word == "sword":
+#         print("5 damage")
+#     elif word in l and word == "dagger":
+#         print ("3 damage")
+#     else:
+#         print("you dont have this weapon")
+
+
+
+#print([x**2 for x in range(5)])
+
+# a = []
+# for i in range(5):
+#     a.append(i**2)
+# print (a)
